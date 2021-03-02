@@ -1,0 +1,45 @@
+body {
+    font-family: arial;
+    background-color: rgb(234, 255, 228);
+    min-width: 100%;
+    max-width: 100%;
+}
+
+header {
+    max-width: 100%;
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 200px;
+    min-width: 90%;
+}
+
+.bloco {
+    text-align: center;
+    background-color: rgba(0, 255, 0, 0.123);
+}
+
+#video {
+    text-align: center;
+}
+
+#ap {
+    display: grid;
+    grid-template-areas: "foto texto";
+}
+
+.foto {
+    /*background: green;*/
+    background-image: linear-gradient(to right, green, #CDFFC8);
+}
+
+.texto {
+    background: #CDFFC8;
+    text-align: center;
+}
+
+#choris {
+    border-radius: 50%;
+    max-width: 55%;
+}
