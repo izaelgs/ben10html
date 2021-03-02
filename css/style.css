@@ -1,8 +1,9 @@
 body {
     font-family: arial;
     background-color: rgb(234, 255, 228);
-    min-width: 100%;
+    min-width: 80%;
     max-width: 100%;
+    margin: 0px;
 }
 
 header {
@@ -42,4 +43,17 @@ header {
 #choris {
     border-radius: 50%;
     max-width: 55%;
+    padding-left: 3%;
+}
+
+.rodape {
+    background-color: #002E05;
+    color: white;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+
+#formulario {
+    padding-left: 3%;
 }
