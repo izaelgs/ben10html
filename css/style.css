@@ -9,7 +9,7 @@ body {
 header {
     max-width: 100%;
     font-size: larger;
-    text-align: center;
+    /*text-align: center;*/
     padding-bottom: 5px;
     padding-top: 5px;
     height: 200px;
@@ -56,4 +56,25 @@ header {
 
 #formulario {
     padding-left: 3%;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    transition-duration: 0.4s;
+    text-align: left;
+    margin-right: 1%;
+}
+
+a:hover {
+    color: #CDFFC8;
+    margin-left: 3%;
 }
