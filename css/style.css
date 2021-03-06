@@ -16,9 +16,27 @@ header {
     min-width: 90%;
 }
 
+.foto {
+    /*background: green;*/
+    background-image: linear-gradient(to right, green, #CDFFC8);
+}
+
 .bloco {
     text-align: center;
     background-color: rgba(0, 255, 0, 0.123);
+}
+
+.texto {
+    background: #CDFFC8;
+    text-align: center;
+}
+
+.rodape {
+    background-color: #002E05;
+    color: white;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
 }
 
 #video {
@@ -30,28 +48,10 @@ header {
     grid-template-areas: "foto texto";
 }
 
-.foto {
-    /*background: green;*/
-    background-image: linear-gradient(to right, green, #CDFFC8);
-}
-
-.texto {
-    background: #CDFFC8;
-    text-align: center;
-}
-
 #choris {
     border-radius: 50%;
     max-width: 55%;
     padding-left: 3%;
-}
-
-.rodape {
-    background-color: #002E05;
-    color: white;
-    padding-top: 1%;
-    padding-left: 3%;
-    padding-bottom: 1%;
 }
 
 #formulario {
@@ -76,5 +76,5 @@ a {
 
 a:hover {
     color: #CDFFC8;
-    margin-left: 3%;
+    margin-left: 300px;
 }
