@@ -1,7 +1,7 @@
 body {
     font-family: arial;
-    background-color: rgb(234, 255, 228);
-    min-width: 80%;
+    background-color: rgb(3, 14, 0);
+    min-width: 90%;
     max-width: 100%;
     margin: 0px;
 }
@@ -23,7 +23,7 @@ header {
 
 .bloco {
     text-align: center;
-    background-color: rgba(0, 255, 0, 0.123);
+    background-color: rgba(137, 231, 137, 0.144);
 }
 
 .texto {
@@ -76,5 +76,5 @@ a {
 
 a:hover {
     color: #CDFFC8;
-    margin-left: 300px;
+    margin-left: 100px;
 }
