@@ -1,0 +1,80 @@
+body {
+    font-family: arial;
+    background-color: rgb(3, 14, 0);
+    min-width: 90%;
+    max-width: 100%;
+    margin: 0px;
+}
+
+header {
+    max-width: 100%;
+    font-size: larger;
+    /*text-align: center;*/
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 200px;
+    min-width: 90%;
+}
+
+.foto {
+    /*background: green;*/
+    background-image: linear-gradient(to right, green, #CDFFC8);
+}
+
+.bloco {
+    text-align: center;
+    background-color: rgba(137, 231, 137, 0.144);
+}
+
+.texto {
+    background: #CDFFC8;
+    text-align: center;
+}
+
+.rodape {
+    background-color: #002E05;
+    color: white;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+
+#video {
+    text-align: center;
+}
+
+#ap {
+    display: grid;
+    grid-template-areas: "foto texto";
+}
+
+#choris {
+    border-radius: 50%;
+    max-width: 55%;
+    padding-left: 3%;
+}
+
+#formulario {
+    padding-left: 3%;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    transition-duration: 0.4s;
+    text-align: left;
+    margin-right: 1%;
+}
+
+a:hover {
+    color: #CDFFC8;
+    margin-left: 100px;
+}
